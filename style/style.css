@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.body{
+    background-image: url(../image/Background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header{
+    width: auto;
+    height: 60px;
+    background-color: rgba(0, 0, 0,0.5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.logo{ 
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo:hover{
+    color: #236d47;
+}
+
+.hedear-nav-icons{
+    margin-right: 20px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+}
+
+.svg-img svg path {
+    fill: white; 
+  }
+  .svg-img:hover svg path {
+    fill: #236d47;
+  }
+
+.hedear-nav-icons :hover {
+    color: #236d47;
+}
+
+.log-in-header{
+    color: white;
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    border-left: 1px solid #FFFFFFE5;
+    padding-left: 20px;
+    margin-right: 100px;
+    height: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.log-in-header a{
+    color: white;
+}
+
+.log-in-header a:hover {
+    color: #236d47;
+}
+
+.reg-menu{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    position: relative;
+}
+
+.line-box{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.line-box span{
+    font-size: 14px;
+    color: #848484;
+}
+
+.line{
+    height: 1px ;
+    width: 145px;
+    background-color: #F2F2F2;
+}
+
+.btn-facebook{
+    width: 145px;
+    height: 40px;
+    background-color: #305DB8;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 5px;
+    align-items: center;
+    vertical-align: top;
+    display: flex;
+}
+
+.text-f{
+    margin-left: 15px;
+}
+
+.btn-facebook img{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    border-right: 1px solid#0A162F30;
+}
+
+.btn-facebook:hover{
+    background-color: #022263;
+}
+
+.btn-google{
+    width: 145px;
+    height: 40px;
+    background-color: #DF4A32;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.text-g{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.btn-google img{
+    width: 30px;
+    height: 25px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-top: 6px;
+    border-right: 1px solid #2B0D0930;
+}
+
+.btn-google:hover{
+    background-color: #ab1f09;
+}
+
+.reg-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.reg-logo::before{
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 20px;
+    background-color: #3CB878;
+}
+
+.reg-logo a{
+    color:#3CB878;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.reg-logo a:hover{
+    text-decoration: underline;
+    color:  #01813F;
+}
+
+.reg-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    display: flex;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.input-box input{
+    height: 30px;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+}
+
+.input-box input:focus{
+    border-color: transparent;
+    box-shadow: 0px 3px 8px 0px #00000036;
+}
+
+.checkbox{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.checkbox a{
+    color: #3CB878;
+}
+
+.checkbox a:hover{
+    text-decoration: underline;
+    color:  #01813F;
+}
+
+.checkbox label{
+    color: #434343;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.btn-botom{
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color:#3CB878;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-botom:hover{
+    background-color: #01813F;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+  
+.checkbox input[type="checkbox"] {
+    display: none;
+}
+  
+.checkbox label {
+    position: relative;
+    padding-left: 25px;
+}
+  
+.checkbox label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+  
+.checkbox input[type="checkbox"]:checked + label:before {
+    background-image: url(../image/Vector.svg);
+    background-repeat: no-repeat;
+}
+
+  
